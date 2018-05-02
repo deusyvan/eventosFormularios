@@ -7,7 +7,8 @@
 	</head>
 	<body>
 		<form method="POST">
-			<input type="text" name="nome" onfocus="focou()"/> <br/><br/>
+			<input type="text" name="nome" onfocus="focou()" onBlur="desfocou()"/> 
+			<br/><br/>
 			<select name="cidade" onChange="mudouOpcao(this)">
 				<option>São Paulo</option>	
 				<option>Rio de Janeiro</option>	
